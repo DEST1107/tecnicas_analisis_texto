@@ -34,3 +34,13 @@ palabras = texto_procesado.split()
 # Contar frecuencias de palabras
 frecuencia_palabras = Counter(palabras)
 print(frecuencia_palabras)
+
+La tokenización es el proceso de dividir una secuencia de texto en unidades más pequeñas, conocidas como tokens. Estos tokens pueden ser palabras, frases, caracteres o incluso símbolos. El propósito de la tokenización es estructurar un texto para facilitar su análisis y procesamiento, especialmente en tareas de procesamiento del lenguaje natural (PLN).
+
+Por ejemplo, en una oración como "Me gusta el fútbol", la tokenización podría dividir el texto en los siguientes tokens:
+
+"Me"
+"gusta"
+"el"
+"fútbol"
+La tokenización es un paso fundamental en muchos algoritmos de PLN, como análisis de sentimientos, traducción automática o modelos de lenguaje como GPT. Existen diferentes tipos de tokenización, como la basada en palabras o en caracteres, dependiendo de la granularidad que se necesite.
